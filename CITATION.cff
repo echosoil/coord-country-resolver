@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the repository and the boundary datasets used in your analysis."
+title: "coord-country-resolver"
+authors:
+  - name: "Quanta Systems, S.L."
+repository-code: "https://github.com/echosoil/coord-country-resolver"
+type: software
+license: Apache 2.0
+references:
+  - type: article
+    authors:
+      - family-names: Runfola
+        given-names: Daniel
+    title: "geoBoundaries: A global database of political administrative boundaries"
+    journal: "PLoS ONE"
+    year: 2020
+    volume: 15
+    issue: 4
+    doi: "10.1371/journal.pone.0231866"

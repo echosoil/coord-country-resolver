@@ -1,0 +1,24 @@
+coord-country-resolver
+Copyright 2026 Quanta Systems, S.L.
+
+This software is licensed under the Apache License, Version 2.0.
+
+Documentation and repository text are licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0), unless otherwise stated.
+
+This project can be configured to use geoBoundaries boundary data.
+geoBoundaries is licensed under CC BY 4.0 and requires attribution.
+
+geoBoundaries attribution:
+Runfola, D. et al. (2020) geoBoundaries: A global database of political
+administrative boundaries. PLoS ONE 15(4): e0231866.
+https://doi.org/10.1371/journal.pone.0231866
+
+geoBoundaries website:
+https://www.geoboundaries.org
+
+This project may also be configured to use Natural Earth boundary data.
+Natural Earth:
+https://www.naturalearthdata.com
+
+Boundary data files are not included in this repository.
