@@ -1,0 +1,22 @@
+services:
+  coord-country-resolver:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: coord-country-resolver
+    restart: unless-stopped
+    ports:
+      - "8010:8010"
+    environment:
+      COUNTRY_SHP: /data/ne_50m_admin_0_countries/ne_50m_admin_0_countries.shp
+      COUNTRY_LOOKUP_TOLERANCE_DEG: ${COUNTRY_LOOKUP_TOLERANCE_DEG:-0.10}
+      COUNTRY_NEAREST_BLACKLIST: ${COUNTRY_NEAREST_BLACKLIST:-}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    volumes:
+      - ./data:/data:ro
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:8010/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s

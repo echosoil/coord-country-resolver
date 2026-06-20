@@ -1,7 +1,7 @@
 import requests
 
 
-BASE_URL = "http://127.0.0.1:8015"
+BASE_URL = "http://127.0.0.1:8010"
 
 
 def main():

@@ -143,6 +143,7 @@ class CountryResolver:
                 country_code=iso2,
                 country_source="shapefile_exact",
                 country_lookup_note="",
+                distance_deg=0.0,
                 matched_country_name=name,
             )
 
