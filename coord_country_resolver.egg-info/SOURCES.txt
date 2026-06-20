@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+coord_country_resolver.egg-info/PKG-INFO
+coord_country_resolver.egg-info/SOURCES.txt
+coord_country_resolver.egg-info/dependency_links.txt
+coord_country_resolver.egg-info/requires.txt
+coord_country_resolver.egg-info/top_level.txt
+country_resolver/__init__.py
+country_resolver/models.py
+country_resolver/resolver.py
+country_resolver/settings.py
+service/__init__.py
+service/app.py
+tests/test_resolver.py
