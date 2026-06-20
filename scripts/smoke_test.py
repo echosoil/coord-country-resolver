@@ -1,5 +1,7 @@
 from country_resolver import CountryResolver
+from dotenv import load_dotenv
 
+load_dotenv()
 
 def main():
     resolver = CountryResolver()
@@ -7,6 +9,7 @@ def main():
     tests = [
         (41.3874, 2.1686, "Barcelona"),
         (48.8566, 2.3522, "Paris"),
+        (59.16313018872223, 18.455393789243544, "Stockholm"),
         (35.27595925977908, -2.9557758942246437, "XRXB-4454 / Melilla"),
         ("bad", 2.0, "bad input"),
     ]

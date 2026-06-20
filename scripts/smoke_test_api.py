@@ -1,5 +1,7 @@
 import requests
+from dotenv import load_dotenv
 
+load_dotenv()
 
 BASE_URL = "http://127.0.0.1:8010"
 

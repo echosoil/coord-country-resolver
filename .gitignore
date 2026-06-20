@@ -23,4 +23,6 @@ data/*.dbf
 data/*.prj
 data/*.cpg
 data/ne_*/
+data/geoboundaries/
+*.gpkg
 .pytest_cache/

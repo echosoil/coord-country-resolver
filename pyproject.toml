@@ -11,6 +11,9 @@ dependencies = [
     "pandas>=2.0",
     "fastapi>=0.110",
     "uvicorn[standard]>=0.27",
+    "geopandas>=0.14",
+    "pyogrio>=0.7",
+    "pycountry>=24.6",
 ]
 
 [project.optional-dependencies]
